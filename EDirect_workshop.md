@@ -1,5 +1,5 @@
 # Entrez Direct (EDirect)
-These materials are for the workshop on using EDirect to query NCBI databases from the command line.
+These materials are a guide on using EDirect to query NCBI databases from the command line.
 
 ## What is EDirect?
 From the NCBI EDirect tutorial pages:
@@ -12,7 +12,7 @@ From the NCBI EDirect tutorial pages:
 Sometimes, you might want to see all the related records from an entry in an NCBI database, then find related records in yet another database. This requires multiple clicks in the web versions of the databases, and you cannot specify the terms you want to use for "relatedness", or specify all the fields you might want to filter on when finding related records. You can do that with EDirect. It retrieves results in plain text format that you can then analyze with text packages, or place into tabular format, or use for analysis software packages (such as sequence alignment). Query results run quickly, because EDirect uses indexing to target the fields you define in your queries.
 
 ## Concept 1: Discovering the fields used in NCBI database records
-Each NCBI database uses specific fields to index records. These fields can be used to search or filter queries. Field names and abbreviations may be the same from one database to another, but the entity in that field is not necessarily the same. For example, "unique ID" [UID} refers to the record identifier for that record, but the UID for a PubMed entry is different from that of an NCBI Gene entry.
+Each NCBI database uses specific fields to index records. These fields can be used to search or filter queries. Field names and abbreviations may be the same from one database to another, but the entity in that field is not necessarily the same. For example, "unique ID" [UID] refers to the record identifier for that record, but the UID for a PubMed entry is different from that of an NCBI Gene entry.
 
 ### Example 1
 Let's start by seeing what fields are in your NCBI database of choice. The "einfo" command will show you the fields for records in a given NCBI database.
