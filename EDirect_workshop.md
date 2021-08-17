@@ -19,9 +19,9 @@ Let's start by seeing what fields are in your NCBI database of choice. The "einf
 
 ```console
 einfo -db gene -fields
-
-![EDirect_GeneFields](https://user-images.githubusercontent.com/13007103/129612872-078743bc-0bde-4bbd-9e03-7a9fd29af3ae.png)
 ```
+![EDirect_GeneFields](https://user-images.githubusercontent.com/13007103/129612872-078743bc-0bde-4bbd-9e03-7a9fd29af3ae.png)
+
 
 
 ### Exercise 1
