@@ -1,1 +1,2 @@
-# edirect-workshop
+# edirect-tutorial
+
