@@ -1,6 +1,7 @@
 # edirect-tutorial
 
-Installation
+# Installation
+
 EDirect will run on Unix and Macintosh computers, and under the Cygwin Unix-emulation environment on Windows PCs. To install the EDirect software, click on the download EDirect installer link to obtain the install-edirect.sh script, then execute it by running:
 
 **source ./install-edirect.sh**
