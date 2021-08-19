@@ -11,6 +11,7 @@ Alternatively, open a terminal window and execute one of the following two comma
   **sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"**
 
   **sh -c "$(wget -q ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"**
+
 or copy the following commands and paste them into a terminal window:
 
   
