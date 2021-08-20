@@ -2,26 +2,26 @@
 
 # Installation
 
-The instructions below are taken from the NCBI's "Entrez Direct: E-utilities on the Unix Command Line", available at https://www.ncbi.nlm.nih.gov/books/NBK179288/. Usually the source install or either the curl or wget commands work just fine. If you have installed EDirect in the past, make sure you are using the latest version. You may want to update (reinstall) to ensure that you have the most recent version of EDirect.
+The instructions below are taken from the NCBI's ["Entrez Direct: E-utilities on the Unix Command Line"](https://www.ncbi.nlm.nih.gov/books/NBK179288/). Usually the source install or either the curl or wget commands work just fine. If you have installed EDirect in the past, make sure you are using the latest version. You may want to update (reinstall) to ensure that you have the most recent version of EDirect.
 
 EDirect will run on Unix and Macintosh computers, and under the Cygwin Unix-emulation environment on Windows PCs. To install the EDirect software, click on the download EDirect installer link (https://www.ncbi.nlm.nih.gov/books/NBK179288/bin/install-edirect.sh) to obtain the install-edirect.sh script, then execute it by running:
 
-```console
+```
 source ./install-edirect.sh
 ```
 
 Alternatively, open a terminal window and execute one of the following two commands:
 
-```console
+```
   sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
 ```  
-```console
+```
   sh -c "$(wget -q ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"
 ```
 
 or copy the following commands and paste them into a terminal window:
 
-```console
+```
   cd ~
   /bin/bash
   perl -MNet::FTP -e \
@@ -37,7 +37,7 @@ or copy the following commands and paste them into a terminal window:
   
 Any of these methods will download a number of scripts and several precompiled programs into an "edirect" folder in the user's home directory. The setup.sh script may then print an additional command for updating the PATH environment variable in the user's configuration file. The editing instructions will look something like:
 
-```console  
+```  
   echo "export PATH=\$PATH:\$HOME/edirect" >> $HOME/.bash_profile
 ```
   
