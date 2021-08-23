@@ -42,3 +42,9 @@ Any of these methods will download a number of scripts and several precompiled p
 ```
   
 As a convenience, the installation process ends by offering to run the PATH update command for you. Answer "y" and press the Return key if you want it run. If the PATH is already set correctly, or if you prefer to make any editing changes manually, just press **Return**.
+
+
+# Tutorials and Examples from the NCBI
+[Entrez Direct: E-utilities on the Unix Command Line](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
+[Entrez Direct Examples](https://www.ncbi.nlm.nih.gov/books/NBK565821/)
+[EDirect Cookbook - NCBI Hackathon](https://github.com/NCBI-Hackathons/EDirectCookbook)
