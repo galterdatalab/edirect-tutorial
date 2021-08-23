@@ -45,8 +45,6 @@ As a convenience, the installation process ends by offering to run the PATH upda
 
 
 # Tutorials and Examples from the NCBI
-[Entrez Direct: E-utilities on the Unix Command Line](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
-
-[Entrez Direct Examples](https://www.ncbi.nlm.nih.gov/books/NBK565821/)
-
-[EDirect Cookbook - NCBI Hackathon](https://github.com/NCBI-Hackathons/EDirectCookbook)
+- [Entrez Direct: E-utilities on the Unix Command Line](https://www.ncbi.nlm.nih.gov/books/NBK179288/)
+- [Entrez Direct Examples](https://www.ncbi.nlm.nih.gov/books/NBK565821/)
+- [EDirect Cookbook - NCBI Hackathon](https://github.com/NCBI-Hackathons/EDirectCookbook)
