@@ -4,6 +4,8 @@ Not all of NCBI's databases are searchable by E-utilities or EDirect. The list o
 ## Concept 1: Discovering the fields used in NCBI database records
 Each NCBI database uses specific fields to index records. These fields can be used to search or filter queries. Field names and abbreviations may be the same from one database to another, but the entity in that field is not necessarily the same. For example, "unique ID" [UID] refers to the record identifier for that record, but the UID for a PubMed entry is different from that of an NCBI Gene entry.
 
+Commands use the "-" symbol to give EDirect commands. For example, typing **-db** tells EDirect to search for a database. The - symbol is followed by the name of the database to search (in this example).
+
 ### Example 1
 Let's start by seeing what fields are in your NCBI database of choice. The "einfo" command will show you the fields for records in a given NCBI database.
 
@@ -23,7 +25,7 @@ Now write a query to find the field abbreviations in records for the Medical Gen
 ## Concept 2: Querying NCBI databases using field "tags"
 
 ### Example 2
-Now let's query the NCBI Gene database for amyloid precursor protein using the gene symbol APP. We will do this by adding [GENE] after APP to specify that we want to search the gene name field for APP. Your search query terms must be enclosed in quotation marks. This will give you a count of records that contain your query.
+Now let's query the NCBI Gene database for amyloid precursor protein using the gene symbol APP. We will do this by adding [GENE] (square brackets) after APP to specify that we want to search the gene name field for APP. Your search query terms must be enclosed in quotation marks. This will give you a count of records that contain your query.
 ```
 esearch -db gene -query "APP [GENE]"
 ```
